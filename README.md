@@ -13,3 +13,11 @@ Curso de Angular 2
 ##Valuable links
 
 * [JavaScript ES6+: var, let, or const?](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75#.vchewf8rk)
+
+
+##Todo's
+
+**First class**  
+
+1. Read about ES6  
+2. Research about render engine on browser and list the most popular

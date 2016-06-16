@@ -13,6 +13,8 @@ Curso de Angular 2
 ##Valuable links
 
 * [JavaScript ES6+: var, let, or const?](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75#.vchewf8rk)
+* [Typescript official webpage](https://www.typescriptlang.org/)
+* [Electron for build cross platform desktop apps](http://electron.atom.io/)
 
 
 ##Todo's

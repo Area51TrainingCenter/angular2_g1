@@ -17,6 +17,8 @@ Curso de Angular 2
 * [Electron for build cross platform desktop apps](http://electron.atom.io/)
 * [Carlos Solis Fan Page](https://www.facebook.com/carlos.solis1337)
 * [Manual del Guerrero: AngularJS](http://manualdelguerrero.com)
+* [git - la guía sencilla](http://rogerdudler.github.io/git-guide/index.es.html)
+
 
 
 ##Todo's

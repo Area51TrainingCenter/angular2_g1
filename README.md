@@ -25,3 +25,6 @@ Curso de Angular 2
 
 1. Read about ES6  
 2. Research about render engine on browser and list the most popular
+3. Read [JavaScript ES6+: var, let, or const?](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75#.vchewf8rk)
+4. Read, learn and practice [about git](http://rogerdudler.github.io/git-guide/index.es.html)
+

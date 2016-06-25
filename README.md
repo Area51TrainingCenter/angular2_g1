@@ -18,6 +18,7 @@ Curso de Angular 2
 * [Carlos Solis Fan Page](https://www.facebook.com/carlos.solis1337)
 * [Manual del Guerrero: AngularJS](http://manualdelguerrero.com)
 * [git - la guía sencilla](http://rogerdudler.github.io/git-guide/index.es.html)
+* [Installing Fish on Mac OS X ](https://hackercodex.com/guide/install-fish-shell-mac-ubuntu/)
 
 
 

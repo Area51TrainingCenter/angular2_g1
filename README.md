@@ -19,6 +19,8 @@ Curso de Angular 2
 * [Manual del Guerrero: AngularJS](http://manualdelguerrero.com)
 * [git - la guía sencilla](http://rogerdudler.github.io/git-guide/index.es.html)
 * [Installing Fish on Mac OS X ](https://hackercodex.com/guide/install-fish-shell-mac-ubuntu/)
+* [Teach a Dog to REST - Slides](http://es.slideshare.net/landlessness/teach-a-dog-to-rest)
+* [Teach a Dog to REST - Video](https://vimeo.com/17785736)
 
 
 

@@ -21,6 +21,7 @@ Curso de Angular 2
 * [Installing Fish on Mac OS X ](https://hackercodex.com/guide/install-fish-shell-mac-ubuntu/)
 * [Teach a Dog to REST - Slides](http://es.slideshare.net/landlessness/teach-a-dog-to-rest)
 * [Teach a Dog to REST - Video](https://vimeo.com/17785736)
+* [Color names on CSS](http://www.w3schools.com/colors/colors_names.asp)
 
 
 

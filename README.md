@@ -38,6 +38,7 @@ Curso de Angular 2
 * [The Angular official blog](http://angularjs.blogspot.com)
 * [A List Apart](http://alistapart.com)
 * [Breaking the Mobile Web](http://www.mobilexweb.com)
+* [Exploring ES6 - Free online book](http://exploringjs.com/es6/)
 * [The Next Web](http://thenextweb.com/)
 * [The Verge](http://www.theverge.com/)
 * [ng-newsletter](http://www.ng-newsletter.com/)

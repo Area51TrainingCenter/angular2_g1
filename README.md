@@ -34,3 +34,17 @@ Curso de Angular 2
 3. Read [JavaScript ES6+: var, let, or const?](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75#.vchewf8rk)
 4. Read, learn and practice [about git](http://rogerdudler.github.io/git-guide/index.es.html)
 
+## Must to read
+* [The Angular official blog](http://angularjs.blogspot.com)
+* [A List Apart](http://alistapart.com)
+* [Breaking the Mobile Web](http://www.mobilexweb.com)
+* [The Next Web](http://thenextweb.com/)
+* [The Verge](http://www.theverge.com/)
+* [ng-newsletter](http://www.ng-newsletter.com/)
+* [ng-conf](https://www.ng-conf.org/#/) *All videos was recorded! You should see them!*
+* [②ality – JavaScript and more](http://www.2ality.com)
+* [Github Blog](https://github.com/blog)
+* [Smashing Magazin](https://www.smashingmagazine.com)
+* [Robert Nyman Blog](https://robertnyman.com)
+* [Inc](http://www.inc.com)
+* [Open Source](https://opensource.com/frontpage)

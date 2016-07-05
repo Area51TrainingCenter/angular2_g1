@@ -1,7 +1,10 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ROUTER_DIRECTIVES } from '@angular/router';
+
 import { TodoDetailComponent } from './todo-detail.component';
 import { Todo } from './todo';
 import { TodoService } from './todo.service';
+
 
 @Component({
     selector: 'my-todo-list',
@@ -9,13 +12,14 @@ import { TodoService } from './todo.service';
   <h2>Mis pendientes</h2>
   <ul class="todos">
     <li *ngFor="let todo of todos"
-      [class.selected]="todo === selectedTodo"
-      (click)="onSelect(todo)">
+      [class.selected]="todo === selectedTodo">
+      <a [routerLink]="['/todo-lists/detail', todo.id]">
         <span class="badge">{{ todo.id }}</span> {{ todo.title }}
+      </a>
     </li>
   </ul>
 
-  <my-todo-detail [todo]="selectedTodo"></my-todo-detail>
+  <router-outlet></router-outlet>
   `,
     styles: [`
       .selected{
@@ -71,7 +75,7 @@ import { TodoService } from './todo.service';
         }
 
     `],
-    directives:[TodoDetailComponent],
+    directives:[ROUTER_DIRECTIVES],
     providers: [TodoService]
 })
 export class TodoListComponent implements OnInit {

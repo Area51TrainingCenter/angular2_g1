@@ -1,19 +1,16 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
+import { ActivatedRoute } from  '@angular/router';
 import { Todo } from './todo';
 
 @Component({
   selector: 'my-todo-detail',
   template: `
-    <div *ngIf="todo" class="edit">
+    <div class="edit">
       <h2>Edición de tarea</h2>
-      <h3>{{todo.title}}</h3>
       <div>
-        <label>id: </label>{{todo.id}}
+        <label>id: </label>{{ id }}
       </div>
-      <div>
-        <label>Título: </label>
-        <input [(ngModel)]="todo.title" placeholder="name"/>
-      </div>
+
     </div>
   `,
   styles:[`
@@ -28,5 +25,18 @@ import { Todo } from './todo';
     `]
 })
 export class TodoDetailComponent {
-  @Input() todo: Todo;
+  id: any;
+  paramsSub: any;
+
+  constructor(private activatedRoute: ActivatedRoute) { }
+
+  ngOnInit(){
+    this.paramsSub = this.activatedRoute.params.subscribe(
+      params => this.id = params['id']
+    )
+  }
+
+  ngOnDestroy(){
+    this.paramsSub.unsubscribe();
+  }
 }

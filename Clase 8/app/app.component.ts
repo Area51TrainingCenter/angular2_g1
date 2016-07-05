@@ -1,14 +1,15 @@
 import { Component } from '@angular/core';
-import { Todo } from './todo';
-import { TodoListComponent } from './todo-list.component';
-
+import { ROUTER_DIRECTIVES } from '@angular/router'
 
 @Component({
     selector: 'my-app',
     template: `
       <h1>{{ title }}</h1>
-      <my-todo-list></my-todo-list>`,
-    directives: [TodoListComponent]
+      <a [routerLink] = "['/']">Home</a>
+      <a [routerLink] = "['/todo-lists']">Lista de tareas</a>
+      <router-outlet></router-outlet>
+      `,
+    directives: [ROUTER_DIRECTIVES]
 })
 
 export class AppComponent {

@@ -9,7 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var todo_list_component_1 = require('./todo-list.component');
+var router_1 = require('@angular/router');
 var AppComponent = (function () {
     function AppComponent() {
         this.title = 'Lista de tareas';
@@ -17,8 +17,8 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n      <h1>{{ title }}</h1>\n      <my-todo-list></my-todo-list>",
-            directives: [todo_list_component_1.TodoListComponent]
+            template: "\n      <h1>{{ title }}</h1>\n      <a [routerLink] = \"['/']\">Home</a>\n      <a [routerLink] = \"['/todo-lists']\">Lista de tareas</a>\n      <router-outlet></router-outlet>\n      ",
+            directives: [router_1.ROUTER_DIRECTIVES]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
